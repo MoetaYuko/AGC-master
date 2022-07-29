@@ -104,5 +104,5 @@ class clustering_metrics():
         fh.flush()
         fh.close()
 
-        return acc, nmi, f1_macro
+        return acc, nmi, f1_macro, adjscore
 
